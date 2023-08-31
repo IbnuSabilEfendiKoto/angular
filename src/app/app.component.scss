@@ -1,0 +1,20 @@
+mat-toolbar {
+    position: sticky;
+    top: 0;
+}
+
+.example-spacer {
+    flex: 1 1 auto;
+}
+ 
+button{
+    margin: 10px;
+}
+.main-body {
+    padding-top: 20px;
+    margin: 0 auto;
+    max-width: 1000px;
+    mat-form-field {
+        width: 100%;
+    }
+}

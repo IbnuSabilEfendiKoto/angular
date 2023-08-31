@@ -1,0 +1,60 @@
+<div mat-dialog-title>
+  <h1>Form Jadwal</h1>
+</div>
+<form [formGroup]="empForm" (ngSubmit)="onFormSubmit()">
+  <div mat-dialog-content class="content">
+    <div class="row">
+      <mat-form-field appearance="outline">
+        <mat-label>ID</mat-label>
+        <input
+          matInput
+          type="text"
+          placeholder="Kode Rapat"
+          formControlName="kode"
+        />
+      </mat-form-field>
+      <mat-form-field appearance="outline">
+        <mat-label>User</mat-label>
+        <input
+          matInput
+          type="text"
+          placeholder="Manager"
+          formControlName="user"
+        />
+      </mat-form-field>
+    </div>
+    <div class="row">
+      <mat-form-field appearance="outline">
+        <mat-label>Subjek</mat-label>
+        <input matInput placeholder="Rapat" formControlName="subjek" />
+      </mat-form-field>
+    </div>
+    <div class="row">
+      <mat-form-field appearance="outline">
+        <mat-label>Deskripsi</mat-label>
+        <input matInput placeholder="Rapat Perusahaan PT.ABC" formControlName="deskripsi" />
+      </mat-form-field>
+    </div>
+    <div class="row">
+      <mat-form-field appearance="outline">
+        <mat-label>Penjadwalan</mat-label>
+        <input
+          matInput
+          [matDatepicker]="picker"
+          placeholder="30-07-2023"
+          formControlName="tanggal"
+        />
+        <mat-hint>MM/DD/YYYY</mat-hint>
+        <mat-datepicker-toggle
+          matIconSuffix
+          [for]="picker"
+        ></mat-datepicker-toggle>
+        <mat-datepicker #picker></mat-datepicker>
+      </mat-form-field>
+    </div>
+  </div>
+  <div mat-dialog-actions class="action">
+    <button mat-raised-button type="button" [mat-dialog-close]="false">Cancel</button>
+    <button mat-raised-button color="primary" type="submit">{{data ? 'Update': 'Save'}}</button>
+  </div>
+</form>

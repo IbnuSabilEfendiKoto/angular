@@ -1,0 +1,54 @@
+{
+  "schedule": [
+    {
+      "kode": "111",
+      "user": "Bos ",
+      "subjek": "Rapat",
+      "deskripsi": "Rapat Perusahaan PT.ABC",
+      "tanggal": "2023-08-30T17:00:00.000Z",
+      "id": 1
+    },
+    {
+      "kode": "222",
+      "user": "Manager",
+      "subjek": "Rapat",
+      "deskripsi": "Perusahaan PT.Abc dan PT.Xyz",
+      "tanggal": "2023-08-31T17:00:00.000Z",
+      "id": 2
+    },
+    {
+      "kode": "333",
+      "user": "Karyawan",
+      "subjek": "Pertemuan",
+      "deskripsi": "Rapat Perusahaan Antar Karyawan",
+      "tanggal": "2023-09-05T17:00:00.000Z",
+      "id": 3
+    },
+    {
+      "kode": "444",
+      "user": "Manager",
+      "subjek": "Rapat",
+      "deskripsi": "Rapat Perusahaan PT.XYZ",
+      "tanggal": "2023-09-08T17:00:00.000Z",
+      "id": 4
+    },
+    {
+      "kode": "555",
+      "user": "Bos ss",
+      "subjek": "Workshop",
+      "deskripsi": "Presentasi Perusahaan PT.ABC",
+      "tanggal": "2023-09-07T17:00:00.000Z",
+      "id": 5
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

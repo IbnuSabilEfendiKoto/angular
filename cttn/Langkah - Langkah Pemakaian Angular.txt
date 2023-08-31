@@ -1,0 +1,45 @@
+-----------------
+mat-raised-button
+-----------------
+
+-----------------
+flex: 1;
+-----------------
+
+-----------------
+color: primary;
+-----------------
+
+Langkah - Langkah Pemakaian Angular :
+-web : 	www.angular.io.com'
+	www.material.angular.com
+-buka CMD atau GitBash/PowerShell
+(dienter)
+
+1.Instal Angular
+	a. npm install -g @angular/cli   	<---instal angular
+	b. ng version   			<---cek versi angular
+
+2.Buat Folder Projek
+	a. ng new schedule			<---buat folder projek
+	b. pilih SCSS				<---style yg digunakan
+
+3.Masuk KeFolder Projek
+	a. cd schedule				<---masuk kedirectory folder projek
+	b. code .				<---masuk kedalam text editor VScode
+
+-buka Terminal dan GitBash atau PowerShell
+
+4.Buka DiHalaman Web
+	a. cd serve -o				<---membuka diweb dngn localhost:4200
+
+-Penambahaan Material CSS
+
+5.ng add @angular/material			<---framework angular.material
+
+JSON SERVER <---Jika CRUD dimasukan
+	-npm install -g json-server 		<---pasang server pengganti database
+
+	-json-server -- watch db.json		<---melihan databases server pada web
+
+
